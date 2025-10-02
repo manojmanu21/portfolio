@@ -3,96 +3,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Manoj • About Me</title>
+  <title>Manoj | About Me</title>
   <style>
-    /* Reset */
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
     body {
-      background: #0d0d0d;
-      color: #00ff88;
-      font-family: "Courier New", monospace;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      text-align: center;
-      padding: 20px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #333;
+      line-height: 1.6;
     }
 
-    h1 {
-      font-size: 3rem;
-      letter-spacing: 2px;
-      text-shadow: 0 0 8px #00ff88, 0 0 15px #00ff88;
+    header {
+      background: #fff;
+      padding: 60px 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
       margin-bottom: 10px;
     }
 
-    h2 {
-      font-size: 1.4rem;
-      color: #66ffb2;
-      margin-bottom: 20px;
-    }
-
-    .roles {
-      margin: 20px 0;
+    header p {
       font-size: 1.2rem;
-      color: #aaffcc;
+      color: #555;
     }
 
-    .skills {
-      margin-top: 10px;
-      font-size: 1rem;
-      color: #80ffbf;
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    section h2 {
+      margin-bottom: 15px;
+      color: #222;
     }
 
     .social {
+      text-align: center;
       margin-top: 30px;
     }
 
     .social a {
-      margin: 0 15px;
-      font-size: 1.8rem;
-      color: #00ff88;
-      transition: 0.2s;
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: 0.3s;
     }
 
     .social a:hover {
-      color: #ffffff;
-      text-shadow: 0 0 8px #00ff88, 0 0 12px #00ff88;
+      color: #0077b5; /* LinkedIn blue hover */
     }
 
     footer {
-      position: absolute;
-      bottom: 10px;
-      font-size: 0.8rem;
-      color: #44ff99;
-    }
-
-    @media(max-width: 600px) {
-      h1 { font-size: 2rem; }
-      h2 { font-size: 1rem; }
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #777;
     }
   </style>
-  <!-- Remix Icon -->
-  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
-  <div class="intro">
-    <h1>＞ Manoj_</h1>
-    <h2>Security Analyst | Hacker | OSCP Aspirant</h2>
-  </div>
+  <header>
+    <h1>Manoj S</h1>
+    <p>Security Analyst • Bug Hunter • Learner</p>
+  </header>
 
-  <div class="roles">• Bug Hunter • Pentester • Developer •</div>
-  <div class="skills">Skills: HTML | CSS | JS | Networking | Cybersecurity</div>
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m Manoj! I’m passionate about cybersecurity, ethical hacking, and technology. 
+      Currently preparing for OSCP 2025 and exploring bug bounties. 
+      I love solving problems and learning new skills every day.
+    </p>
+  </section>
 
-  <div class="social">
-    <a href="https://github.com/yourgithub" target="_blank"><i class="ri-github-fill"></i></a>
-    <a href="https://linkedin.com/in/yourlinkedin" target="_blank"><i class="ri-linkedin-fill"></i></a>
-    <a href="https://twitter.com/yourtwitter" target="_blank"><i class="ri-twitter-fill"></i></a>
-    <a href="https://t.me/yourtelegram" target="_blank"><i class="ri-telegram-fill"></i></a>
-  </div>
+  <section>
+    <h2>Skills</h2>
+    <p>🔹 Web Security • Networking • Penetration Testing</p>
+    <p>🔹 Python • Linux • GitHub Projects</p>
+  </section>
 
-  <footer>© 2025 Manoj • Hack The Planet 🌍</footer>
+  <section class="social">
+    <h2>Find Me Online</h2>
+    <a href="https://github.com/yourgithub" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a>
+    <a href="https://twitter.com/yourtwitter" target="_blank">Twitter</a>
+  </section>
+
+  <footer>
+    © 2025 Manoj • Built with ❤️ on GitHub Pages
+  </footer>
 </body>
 </html>
